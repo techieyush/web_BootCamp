@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collect User</title>
+    <link rel="stylesheet" href="./userdata.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Good Vibe Form</h1>
+        <h3>Tell us something positive that happened with you today!</h3>
+        <form action="./Account.html" method="get">
+          
+            <!-- Form Elements:Collect to use the user data -->
+            <div >
+           <label for="" class="labels">Name:</label> <input type="text" placeholder="Enter your name">
+        </div>
+           <br>
+           <div>
+           <label for="" class="labels">Email:</label> <input type="text" placeholder="Enter your email">
+        </div>
+        <div>
+            <label for="" class="labels">On a Scale of 1-10,how good it was?:</label> <input type="text" placeholder="Select a number by your choice" >
+        </div>
+        <div>
+            <label for="" class="labels">Where it happened?:</label> 
+            <select name="" id="">
+                <option disabled selected>Select From Below</option>
+                <option value="AtHome">AtHome</option>
+                <option value="AtSchool">AtSchool</option>
+            </select>
+        </div>
+        <div class="choice">
+            <label for="" class="labels">At what time did it happened?:</label>
+
+            <input type="radio" name=" morning">Morning
+            <br>
+             <input type="radio" name=" afternoon" id="after"/>Afternoon
+             <br>
+             <input type="radio" name=" evening" id="eve"/> Evening
+             <br>
+        
+        </div>
+        <div class="check">
+            <label for="" class="labels">What emotions did you experience?</label>
+             <input type="checkbox" name="Hobbies" value="Excited"/>Excited
+             <br>
+             <input type="checkbox" name="Hobbies" value="Humbled">Humbled
+             <br>
+            <input type="checkbox" name="Hobbies" value="Elated">Elated
+            <br>
+            <input type="checkbox" name="Hobbies" value="Loved">Loved
+            <br>
+            <input type="Checkbox" name="Hobbies" value="Enthusiastic">Enthusiastic
+        </div>
+        <br>
+        <div class="bx">
+        <label for="wtext">Please describe your positive Experience!:</label><br>
+    
+        <textarea name="" id="Explain" cols="30" rows="10" placeholder="Enter your Experience here......"></textarea>
+    </div>
+      <div id="Button">
+        <input type="submit">
+    </div>
+        
+        
+        </form>
+    </div>
+</body>
+</html>

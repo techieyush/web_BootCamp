@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullpage{
+    height: 100%;
+    width: 100%;
+    background-image: url('../a.jfif');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}

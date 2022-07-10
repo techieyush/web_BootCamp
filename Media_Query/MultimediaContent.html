@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="./sytle.css">
+      <style>
+        .icon{
+            font-size: 60px;
+            color: aqua;
+
+        }
+        #website
+        {
+            height:100vh ;
+            width:100%;
+        }
+        #website iframe{
+            height: 100%;
+            width: 100%;
+        }
+      </style>
+</head>
+<body>
+    <h2>Multimedia Demo</h2>
+    <h1>Audio content</h1>
+    <span class="material-icons icon">
+        notifications_off
+        </span>
+    <audio
+    id="audio1" controls loop hidden>
+
+        <source  src="./AV/uplifting-background-music-no-copyright-20-sec.mp3" >
+        <source  src="./AV/10-second-short-music.mp3">
+
+
+</audio>
+    <h1>Video Content</h1>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/TrDwB56Izgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/kKAfQWsiHME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/jn77BhLMGc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="website">
+    <iframe width="400" height="315" src="https://www.beta-labs.in" ></iframe>
+    
+    </div>
+
+
+    <script>
+       var x = document.getElementById('audio1')
+       var y = document.getElementsByClassName('icon')[0];
+       var z = document.getElementById('video1')
+       console.log(x);
+       console.log(y);
+       y.onclick = function(){
+        console.log("Icon Tapped");
+        y.style.color= "yellow";
+       // x.pause();
+       z.setAttribute(src,)
+       }
+
+    </script>
+</body>
+</html>
